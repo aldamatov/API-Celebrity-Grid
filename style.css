@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(217, 215, 215);
+    padding: 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    overflow-y: auto;
+    height: calc(100vh - 218px);
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 2px;
+  }
+  
+  .single-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .single-item {
+    border: 1px solid rgb(217, 215, 215);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .grid-item {
+    border: 1px solid rgb(217, 215, 215);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 150px;
+  }
+  
+  .single-item img {
+    width: 350px;
+  }
+  
+  .grid-item p {
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .spinner {
+    margin-bottom: 20px;
+  }
+  
+  .btns {
+    background-color: rgb(54, 148, 185);
+    width: 90%;
+    color: white;
+    margin: 2px auto;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  header {
+    margin: 10px auto;
+  }
+  
+  header button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(54, 148, 185);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .single-celebrity-wrapper {
+    position: relative;
+  }
+  
+  .go-back {
+    position: absolute;
+    width: 100px;
+    top: -40px;
+  }
+  
+  .known-for-movies {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .each-movie {
+    width: 80px;
+    border: 0.5px solid rgb(230, 226, 226);
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .movie-poster {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .movie-poster img {
+    width: 70%;
+  }
+  
+  .each-movie-title {
+    font-size: 12px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
